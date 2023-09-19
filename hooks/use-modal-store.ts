@@ -2,7 +2,7 @@ import { Server } from '@prisma/client';
 import { create } from 'zustand';
 
 // El tipo de accion que hara el modal.
-export type ModalType = 'createServer' | 'invite';
+export type ModalType = 'createServer' | 'invite' | 'editServer';
 
 interface ModalData {
   server?: Server;
