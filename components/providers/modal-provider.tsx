@@ -1,6 +1,6 @@
 'use client';
 
-import { CreateChannelModal } from '@/components/modals/create-channel-modal copy';
+import { CreateChannelModal } from '@/components/modals/create-channel-modal';
 import { CreateServerModal } from '@/components/modals/create-server-modal';
 import { DeleteServerModal } from '@/components/modals/delete-server-modal';
 import { EditServerModal } from '@/components/modals/edit-server-modal';
